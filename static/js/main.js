@@ -1,6 +1,6 @@
 /* ===================================================================
  * Glint - Main JS
- *
+ * 
  * ------------------------------------------------------------------- */
 
 (function($) {
@@ -337,8 +337,8 @@
     
                 $.ajax({
     
-                    type: "POST",
-                    url: "inc/sendEmail.php",
+                    method: "get",
+                    url: "/submit",
                     data: $(form).serialize(),
                     beforeSend: function() { 
     

@@ -465,6 +465,9 @@
 .icon-pencil-ruler:before {
     content: "\e992";
 }
+.icon-person:before {
+    content: "\1F471";
+}
 .icon-phone:before {
     content: "\e993";
 }

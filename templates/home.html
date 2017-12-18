@@ -6,6 +6,42 @@
         <img src="/static/images/sample_logo.jpg" alt="Homepage">
     </a>
 </div>
+
+<nav class="header-nav">
+
+    <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+    <div class="header-nav__content">
+        <h3 style="color:#808080;">Navigation</h3>
+        
+        <ul class="header-nav__list">
+            <li class="current"><a class="smoothscroll"  href="/#home" title="home">Home</a></li>
+            <li><a class="smoothscroll"  href="/#about" title="about">About Us</a></li>
+            <li><a class="smoothscroll"  href="/#works" title="works">How It Works</a></li>
+            <li><a class="smoothscroll"  href="/#events" title="events">Recent Events</a></li>
+            <li><a class="smoothscroll"  href="/#contact" title="contact">Contact</a></li>
+        </ul>
+
+        <ul class="header-nav__social">
+            <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+        </ul>
+
+    </div> <!-- end header-nav__content -->
+
+</nav>  <!-- end header-nav -->
+
+<a class="header-menu-toggle" href="#0">
+    <span class="header-menu-text" style="color:#808080;">Menu</span>
+    <span class="header-menu-icon"></span>
+</a>
 {% endblock %}
 
 
@@ -26,7 +62,7 @@
             <h1>
                 Throw a customized <br>
                 Mystery Party like <br>
-                you've never experienced.
+                you've never experienced
                 
             </h1>
 
@@ -54,13 +90,13 @@
 
     <ul class="home-social">
         <li>
-            <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span style="color:#808080;">Facebook</span></a>
         </li>
         <li>
-            <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span style="color:#808080;">Twiiter</span></a>
         </li>
         <li>
-            <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span style="color:#808080;">Instagram</span></a>
         </li>
     </ul> 
     <!-- end home-social -->
@@ -73,12 +109,9 @@
 
 <section id='about' class="s-about"> 
 
-    <div class="overlay"></div>
-    <div class="shadow-overlay"></div>
-
     <div class="row section-header has-bottom-sep" data-aos="fade-up">
         <div class="col-full">
-           <!-- <h3 class="subhead subhead--dark">Hello There</h3>  -->
+           <h3 class="subhead subhead--dark" style="color:#4f1a15;">About Us</h3>  
            <!-- <h1 class="display-1 display-1--light" style="color:#808080;">We Are Mystery Party Popup</h1>  -->
            <h1 class="display-1 display-1--light" style="color:#FFFFFF;">We Are Mystery Party Popup</h1>
         </div>
@@ -86,7 +119,7 @@
 
     <div class="row about-desc" data-aos="fade-up">
         <div class="col-full">
-        	<h3 class="subhead subhead--dark" style="color:#808080;">What We Do</h3>
+        	<h3 class="subhead subhead--dark" style="color:#4f1a15;">What We Do</h3>
             <p style="color:#FFFFFF;">
             Write, plan, and host customized events and parties for groups of 25-40 of your friends. We have pre-made parties that can be catered to your group’s unique personalities, or we can create a new party that is molded to your specific interests! Our parties are meant to be interactive, unique, and customized to fit the needs of your group. We touch on inside jokes and personalities, and will be sure to make this a night you’ll never forget.
             </p>
@@ -95,23 +128,16 @@
 
     <div class="row about-desc" data-aos="fade-up">
         <div class="col-full">
-        	<h3 class="subhead subhead--dark" style="color:#808080;">What You Do</h3>
+        	<h3 class="subhead subhead--dark" style="color:#4f1a15;">What You Do</h3>
             <p style="color:#FFFFFF;">
              Assist us in writing, planning, and throwing an interactive party for 25-40 of your friends, colleagues, teammates, or anyone else you may want this experience with! Your help is appreciated throughout our creation process, as well as the party / performance. Insider information of your group is key for our process, by making the night more comfortable and hilarious for those in attendance.
             </p>
         </div>
-    </div>  
-
-    <div class="row about-desc" data-aos="fade-up">
-        <div class="col-full">
-            <h3 class="subhead subhead--dark" style="color:#808080;">LET’S THROW A PARTY TOGETHER THAT YOU’LL NEVER FORGET!!!</h3>
-        </div>
-    </div>  
-
+    </div>   
 
     <div class="row clients-testimonials section-header" data-aos="fade-up">
         <div class="col-full">
-        	<h3 class="subhead subhead--dark" style="color:#808080;">Who We Are</h3>
+        	<h3 class="subhead subhead--dark" style="color:#4f1a15;">Who We Are</h3>
             <br>
             <div class="testimonials">
 
@@ -121,7 +147,7 @@
                         <img src="/static/images/avatars/alex.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
                             <span class="testimonials__name" style="color:#FFFFFF;">Alexander</span> 
-                            <span class="testimonials__pos" style="color:#808080;">Head Writer</span>
+                            <span class="testimonials__pos" style="color:#4f1a15;">Head Writer</span>
                         </div>
                     </div>
 
@@ -129,7 +155,7 @@
                         <img src="/static/images/avatars/tyler.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
                             <span class="testimonials__name" style="color:#FFFFFF;">Tyler</span> 
-                            <span class="testimonials__pos" style="color:#808080;">Cowriter</span>
+                            <span class="testimonials__pos" style="color:#4f1a15;">Cowriter</span>
                         </div>
                     </div>
 
@@ -137,7 +163,7 @@
                         <img src="/static/images/avatars/ross.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
                             <span class="testimonials__name" style="color:#FFFFFF;">Ross</span> 
-                            <span class="testimonials__pos" style="color:#808080;">Bookkeeper</span>
+                            <span class="testimonials__pos" style="color:#4f1a15;">Bookkeeper</span>
                         </div>
                     </div>
 
@@ -148,6 +174,14 @@
         </div> <!-- end col-full -->
     </div> <!-- end client-testimonials -->
 
+    <!--
+        <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead subhead--dark" style="color:#808080;">LET’S THROW A PARTY TOGETHER THAT YOU’LL NEVER FORGET!!!</h3>
+        </div>
+    -->
+    </div>
+
 
     <div class="about__line"></div>
 
@@ -156,12 +190,12 @@
 
     <!-- services
     ================================================== -->
-    <section id='services' class="s-services">
+    <section id='works' class="s-services">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead">How This Works</h3>
-                <h1 class="display-2">We’ve got everything you need to throw a party you won't forget</h1>
+                <h3 class="subhead" style="color:#808080;">How This Works</h3>
+                <h1 class="display-2" style="color:#4f1a15;">We’ve got everything you need to throw a party you won't forget</h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -172,7 +206,7 @@
                     <i class="icon-light-bulb"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Original Content</h3>
+                    <h3 class="h2" style="color:#4f1a15;">Original Content</h3>
                     <p>Get wrapped up in the twists and turns of storylines written from scratch and performed together for the 
                        first time, every time.  
                     </p>
@@ -184,8 +218,8 @@
                     <i class="icon-pencil"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Customized Characters</h3>
-                    <p>We commit to speaking with every guest individually to ensure that all characters are tailored to 
+                    <h3 class="h2" style="color:#4f1a15;">Customized Characters</h3>
+                    <p>We commit to speaking with every guest individually while writing the plot to ensure that all characters are tailored to 
                        personalities.  With the help of a group liason, you can be sure there will be plenty of inside dirt
                        dished throughout the night.
                     </p>
@@ -197,7 +231,7 @@
                     <i class="icon-mug"></i>
                 </div>  
                 <div class="service-text">
-                    <h3 class="h2">Full Service Catering</h3>
+                    <h3 class="h2" style="color:#4f1a15;">Full Service Catering</h3>
                     <p>Venue, booze, music .. check.  Just show up and be ready to perform.
                     </p>
                 </div>
@@ -208,15 +242,127 @@
                     <i class="icon-trophy"></i>
                 </div>
                 <div class="service-text">
-                    <h3 class="h2">Glory .. Sweet Glory</h3>
+                    <h3 class="h2" style="color:#4f1a15;">Glory .. Sweet Glory</h3>
                     <p>Awards will be handed out at the end of the night for best performance as well as for the "Sleuth" who solves the murder.
                     </p>
                 </div>
             </div>
-
+            <div  style="text-align:center">
+                <p>Here is a longer paragraph that explains more of the details about the roles, teams, etc.  My thought is that we can take detail out of 
+                the "About Us" section -- make those more like 1-2 sentences to get people interested, then have more detailed information down here in like a "one pager" format.</p>
+            </div>
         </div> <!-- end services-list -->
 
     </section> <!-- end s-services -->
+
+
+
+    <!-- works
+    ================================================== -->
+    <section id='events' class="s-works">
+
+        <div class="intro-wrap">
+                
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead" style="color:#808080;">Recent Events</h3>
+                    <h1 class="display-2 display-2--light">Check out some recent parties</h1>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="/otphh" class="thumb-link" title="OTPHH" data-size="1050x700">
+                                    <img src="/static/images/portfolio/OTPHJ.PNG" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Old Town Prep
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Homecoming Horror
+                                </p>
+                            </div>
+    
+                            <a href="/otphh" class="item-folio__project-link" title="Party link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="/static/images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Chiefs" data-size="1050x700">
+                                    <img src="/static/images/portfolio/woodcraft.jpg" 
+                                         srcset="/static/images/portfolio/woodcraft.jpg 1x, /static/images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Kansas City
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Chiefs
+                                </p>
+                            </div>
+    
+                            <a href="" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="/static/images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                    <img src="/static/images/portfolio/the-beetle.jpg"
+                                         srcset="/static/images/portfolio/the-beetle.jpg 1x, /static/images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Mizzou
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Tigers
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+        </div> <!-- end works-content -->
+
+    </section> <!-- end s-works -->
 
 
 
@@ -229,7 +375,7 @@
 
     <div class="row section-header" data-aos="fade-up">
         <div class="col-full">
-            <h3 class="subhead">Contact Us</h3>
+            <h3 class="subhead" style="color:#808080;">Contact Us</h3>
             <h1 class="display-2 display-2--light">Get in touch for more information</h1>
         </div>
     </div>

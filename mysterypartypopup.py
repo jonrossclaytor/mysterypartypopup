@@ -47,9 +47,9 @@ def submit():
 		return 'Error occurred.'
 		
 
-@app.route('/test')
+@app.route('/otphh')
 def test():
-	return render_template('test.html')
+	return render_template('otphh.html')
 
 if __name__ == '__main__':
 	app.run(port=5000, debug=True)

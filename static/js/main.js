@@ -133,6 +133,7 @@
             });
 
             // bind click event
+            /*
             $folioItems.each(function(i) {
 
                 $(this).on('click', function(e) {
@@ -148,7 +149,7 @@
                 });
 
             });
-
+            */
     };
     
 

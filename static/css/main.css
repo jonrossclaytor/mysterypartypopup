@@ -1732,6 +1732,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .header-menu-text {
         display: none;
     }
+    .header-logo {
+        position: absolute;
+        width: 500px;
+        /*display: none;*/
+    }
+    .home-content__scroll {
+        display: none;
+    }
 }
 
 

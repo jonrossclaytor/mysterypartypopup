@@ -1467,6 +1467,31 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.3s ease-in-out;
 }
 
+.header-logo-parties {
+    display: inline-block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 40px;
+    top: 3.5em;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.header-logo-parties a {
+    display: block;
+    margin: 45px 0 0 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    width: 85px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
 /* ------------------------------------------------------------------- 
  * ## main navigation 
  * ------------------------------------------------------------------- */
@@ -1723,6 +1748,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .header-logo {
         left: 30px;
     }
+    .header-log-parties {
+        left: 30px;
+    }
     .header-menu-toggle {
         right: 25px;
     }
@@ -1736,6 +1764,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
         position: absolute;
         width: 500px;
         /*display: none;*/
+    }
+    .header-logo-parties {  
+        display: none;
     }
     .home-content__scroll {
         display: none;

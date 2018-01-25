@@ -1444,15 +1444,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-logo {
     display: inline-block;
-    position: absolute;
+    position: fixed;
     margin: 0;
     padding: 0;
     left: 40px;
-    top: 50%;
+    top: 3.5em;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    z-index: 501;
+    z-index: 1;
 }
 
 .header-logo a {
@@ -1461,11 +1461,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 120px;
+    background-color: transparent;
+    width: 85px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
-
 
 /* ------------------------------------------------------------------- 
  * ## main navigation 
@@ -1745,6 +1745,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 100%;
     min-height: 786px;
     background-color: transparent;
+    background-repeat: repeat-y;
     position: relative;
     display: table;
 }
@@ -1844,7 +1845,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__scroll {
     position: absolute;
     right: 9.5rem;
-    bottom: 8.4rem;
+    top: 68rem;
 }
 
 .home-content__scroll a {
@@ -1860,8 +1861,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::before {
-    border-bottom: 2px solid #4f1a15;
-    border-right: 2px solid #4f1a15;
+    border-bottom: 2px solid #808080;
+    border-right: 2px solid #808080;
     content: '';
     display: block;
     height: 8px;
@@ -1900,7 +1901,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     list-style: none;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 10%;
     right: 5.4rem;
     -webkit-transform: translate3d(0, -50%, 0);
     -ms-transform: translate3d(0, -50%, 0);
@@ -2198,12 +2199,48 @@ html.no-csstransitions .home-content__main {
  * # about
  *
  * ------------------------------------------------------------------- */
+
+.s-about {
+    background-color: #151515;
+    background-image: url("../images/blood_background.png");
+    background-repeat: repeat-y;
+    background-position: center, center;
+    padding-top: 15rem;
+    padding-bottom: 12rem;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+/*
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #808080;
-    color: #010507;
+    background-image: url("/static/images/blood_background.png");
     position: relative;
+}
+*/
+
+.s-about .shadow-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
+}
+
+.s-about .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    background-color: #000000;
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -2409,6 +2446,7 @@ html.no-csstransitions .home-content__main {
     color: #4f1a15;
     font-size: 4.8rem;
     margin-top: -.6rem;
+    z-index: 501;
 }
 
 
@@ -2941,8 +2979,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: #151515;
-    background-image: url("../images/blood_background.png");
+    background-color: #000000;
+    background-image: url("../images/black.jpeg");*/
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
@@ -2958,7 +2996,7 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .8;
-    background-color: #151515;
+    background-color: #000000;
 }
 
 .s-contact .form-field {

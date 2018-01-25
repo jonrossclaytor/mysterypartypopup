@@ -1448,7 +1448,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 0;
     left: 40px;
-    top: 3.5em;
+    top: 4em;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1462,7 +1462,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: 0;
     border: none;
     background-color: transparent;
-    width: 85px;
+    width: 80px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1473,7 +1473,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 0;
     left: 40px;
-    top: 3.5em;
+    top: 4em;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -1487,7 +1487,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: 0;
     border: none;
     background-color: transparent;
-    width: 85px;
+    width: 80px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }

@@ -3512,7 +3512,7 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    margin-top: 1rem;
     text-align: center;
     font-size: 14px;
 }
@@ -3524,7 +3524,7 @@ footer .row {
 .footer-bottom .copyright span::after {
     content: "|";
     display: inline-block;
-    padding: 0 1rem 0 1.2rem;
+    /*padding: 0 1rem 0 1.2rem;*/
     color: rgba(255, 255, 255, 0.05);
 }
 

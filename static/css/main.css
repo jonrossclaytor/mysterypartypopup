@@ -1462,7 +1462,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: 0;
     border: none;
     background-color: transparent;
-    width: 80px;
+    width: 4em;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1487,7 +1487,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     outline: 0;
     border: none;
     background-color: transparent;
-    width: 80px;
+    width: 4em;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1762,7 +1762,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     }
     .header-logo {
         position: absolute;
-        width: 500px;
+        width: 50px;
         /*display: none;*/
     }
     .header-logo-parties {  
@@ -1771,6 +1771,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     .home-content__scroll {
         display: none;
     }
+    
 }
 
 

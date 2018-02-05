@@ -48,8 +48,12 @@ def submit():
 		
 
 @app.route('/otphh')
-def test():
+def otphh():
 	return render_template('otphh.html')
+
+@app.route('/dqlp')
+def dqlp():
+	return render_template('dqlp.html')
 
 if __name__ == '__main__':
 	app.run(port=5000, debug=True)

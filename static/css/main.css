@@ -1941,7 +1941,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     list-style: none;
     margin: 0;
     position: absolute;
-    top: 10%;
+    top: 12%;
     right: 5.4rem;
     -webkit-transform: translate3d(0, -50%, 0);
     -ms-transform: translate3d(0, -50%, 0);

@@ -31,7 +31,7 @@ def submit():
 
 		msg = Message(contactSubject,
 	                  sender=("Info Request","mysterypopup@gmail.com"),
-	                  recipients=["mysterypopup@gmail.com"])
+	                  recipients=["info@mysterypartypopup.com"])
 		msg.html = """
 				  <b>Name:</b> """ + contactName + """<br>
 				  <b>Email:</b> """ + contactEmail + """<br>
